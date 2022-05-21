@@ -17,6 +17,14 @@ export const Goods = styled.section`
 `;
 
 export const GoodsWrapper = styled.li`
+  transition: transform 250ms linear;
+  ${
+    "" /* 
+  &:hover {
+    transform: scale(1.01);
+  } */
+  }
+
   @media screen and (max-width: 767px) {
     &:not(:last-of-type) {
       margin-bottom: 64px;
@@ -37,6 +45,10 @@ export const GoodsWrapper = styled.li`
       height: 290px;
     }
 
+    &:hover {
+      transform: scale(1.05);
+    }
+
     &:not(:last-of-type) {
       margin-bottom: 0px;
       margin-right: 22px;
@@ -45,6 +57,10 @@ export const GoodsWrapper = styled.li`
 
   @media screen and (min-width: 1440px) {
     width: 320px;
+
+    &:hover {
+      transform: scale(1.05);
+    }
 
     & img {
       height: 320px;
@@ -108,6 +124,7 @@ export const GoodsTitle = styled.h3`
 export const GoodsThumb = styled.div`
   text-align: center;
   padding: 30px 82px 0 82px;
+  cursor: pointer;
 `;
 
 export const GoodsItemTitle = styled.h4`
