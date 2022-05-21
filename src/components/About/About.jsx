@@ -39,7 +39,9 @@ export const AboutSection = () => {
               "на одній хвилі"" з нашими клієнтами. Тому, ми завжди готові
               удосконалити спорядження кожного, хто до нас завітає!
             </AboutSectionThirdText>
-            <AboutSectionButton>Зв'язатися з нами</AboutSectionButton>
+            <AboutSectionButton href="https://t.me/mr_hyde880">
+              Зв'язатися з нами
+            </AboutSectionButton>
           </div>
         </AboutSectionWrapper>
       </Container>

@@ -82,13 +82,15 @@ export const PriceItemUnderLine = styled.span`
   margin-right: 3px;
 `;
 
-export const PriceListButton = styled.button`
+export const PriceListButton = styled.a`
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 160px;
   padding-top: 12px;
   padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   border: 1px solid #ff6c00;
   background-color: transparent;

@@ -77,7 +77,7 @@ export const SiteHeader = () => {
               </NavigationLargeList>
             </nav>
             <NavigationContactsWrapper>
-              <NavigationContactsButton>
+              <NavigationContactsButton href="https://t.me/mr_hyde880">
                 Зв'язатися з нами
               </NavigationContactsButton>
               <NavigationContactsLink href="tel:+380441111111">

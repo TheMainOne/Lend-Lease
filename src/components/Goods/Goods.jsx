@@ -38,7 +38,7 @@ export const GoodsSection = () => {
               <GoodsItemTitle>Рюкзак польовий</GoodsItemTitle>
               <GoodsItemText>Пісочний колір</GoodsItemText>
             </GoodsThumb>
-            <GoodsButton>Купити</GoodsButton>
+            <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
           </GoodsWrapper>
           <GoodsWrapper>
             <img src={img2} alt="Goods" style={{ cursor: "pointer" }} />
@@ -46,7 +46,7 @@ export const GoodsSection = () => {
               <GoodsItemTitle>Тактичний ліхтарик</GoodsItemTitle>
               <GoodsItemText>Чорний колір</GoodsItemText>
             </GoodsThumb>
-            <GoodsButton>Купити</GoodsButton>
+            <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
           </GoodsWrapper>
           <GoodsWrapper>
             <img src={img3} alt="Goods" style={{ cursor: "pointer" }} />
@@ -54,7 +54,7 @@ export const GoodsSection = () => {
               <GoodsItemTitle>Тактичні окуляри</GoodsItemTitle>
               <GoodsItemText>Олива колір</GoodsItemText>
             </GoodsThumb>
-            <GoodsButton>Купити</GoodsButton>
+            <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
           </GoodsWrapper>
         </GoodsList>
         <ModalWindowForFirstItem

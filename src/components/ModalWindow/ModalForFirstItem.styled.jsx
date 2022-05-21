@@ -24,7 +24,7 @@ export const ModalPhone = styled.a`
   color: #303030;
 `;
 
-export const ModalLinkButton = styled.button`
+export const ModalLinkButton = styled.a`
   display: block;
   margin-top: 24px;
   margin-left: 30px;

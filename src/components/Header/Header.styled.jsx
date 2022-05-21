@@ -76,7 +76,7 @@ export const NavigationContactsWrapper = styled.div`
   }
 `;
 
-export const NavigationContactsButton = styled.button`
+export const NavigationContactsButton = styled.a`
   width: 160px;
   margin-bottom: 20px;
   padding-top: 12px;

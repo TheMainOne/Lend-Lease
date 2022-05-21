@@ -164,8 +164,9 @@ export const GoodsItemSocialMediasListLink = styled.a`
   background-color: #fff;
 `;
 
-export const GoodsButton = styled.button`
+export const GoodsButton = styled.a`
   display: block;
+  color: #000000;
   margin: 0 auto;
   width: 160px;
   padding-top: 12px;

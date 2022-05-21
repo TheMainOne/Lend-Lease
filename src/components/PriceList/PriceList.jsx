@@ -42,7 +42,9 @@ export const PriceList = () => {
             </PriceItem>
           </ul>
         </PriceContainer>
-        <PriceListButton>Зв'язатися з нами</PriceListButton>
+        <PriceListButton href="https://t.me/mr_hyde880">
+          Зв'язатися з нами
+        </PriceListButton>
       </Container>
     </PriceListSection>
   );

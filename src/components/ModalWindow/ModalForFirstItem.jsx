@@ -91,7 +91,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
             </Typography>
           </ModalListItem>
         </ModalList>
-        <ModalLinkButton>Замовити</ModalLinkButton>
+        <ModalLinkButton href="https://t.me/mr_hyde880">Купити</ModalLinkButton>
       </Box>
     </Modal>
   );
