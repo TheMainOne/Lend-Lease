@@ -47,7 +47,7 @@ export const SiteHeader = () => {
                     offset={-70}
                     duration={500}
                   >
-                    О нас
+                    Про нас
                   </Link>
                 </NavigationLargeListItem>
                 <NavigationLargeListItem>
@@ -59,7 +59,7 @@ export const SiteHeader = () => {
                     offset={-70}
                     duration={500}
                   >
-                    Мастера
+                    Товари
                   </Link>
                 </NavigationLargeListItem>
                 <NavigationLargeListItem>
@@ -78,7 +78,7 @@ export const SiteHeader = () => {
             </nav>
             <NavigationContactsWrapper>
               <NavigationContactsButton>
-                Связаться с нами
+                Зв'язатися з нами
               </NavigationContactsButton>
               <NavigationContactsLink href="tel:+380441111111">
                 +38 044 111 11 11
@@ -86,12 +86,12 @@ export const SiteHeader = () => {
             </NavigationContactsWrapper>
           </NavigationWrapper>
           <NavigationTitleInformation>
-            <HeaderTitle>A HAIR SALON FOR MEN IN KYIV</HeaderTitle>
-            <CompanyName>barbershop</CompanyName>
+            <HeaderTitle>МАГАЗИН ДЛЯ СВОЇХ</HeaderTitle>
+            <CompanyName>Ленд-ліз</CompanyName>
             <HeaderText>
-              Мы эксперты в модных мужских <br /> стрижках. Работаем быстро,{" "}
-              <br />
-              осторожно и со вкусом.
+              Ми допомогаємо нашим воїнам
+              <br /> в підборі необхідного обладнання. <br />
+              Швидко та якісно
             </HeaderText>
           </NavigationTitleInformation>
           <ModalWindow open={open} handleClose={handleClose} />

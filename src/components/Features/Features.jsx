@@ -17,34 +17,34 @@ export const Features = () => {
       <Container>
         <FeaturesWrapper>
           <div>
-            <FeaturesText>старая традиционная школа</FeaturesText>
-            <FeaturesTitle>Почему приходят именно к нам?</FeaturesTitle>
+            <FeaturesText>Найкращі постачальники</FeaturesText>
+            <FeaturesTitle>Чому звертаються до нас?</FeaturesTitle>
             <FeaturesSecondText>
-              О нас говорят только хорошее. <br />
-              Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.
+              Про нас говорять тільки найкраще. <br />
+              Проте краще 1 раз побачити, ніж 10 разів почути.
             </FeaturesSecondText>
           </div>
           <FeaturesList>
             <FeaturesListItem>
-              <FeaturesListItemWrapper>600</FeaturesListItemWrapper>
+              <FeaturesListItemWrapper>100</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                Довольных клиентов в день
+                Задоволених клієнтів на день
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
-              <FeaturesListItemWrapper>50</FeaturesListItemWrapper>
+              <FeaturesListItemWrapper>15</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                Наград за отличный сервис
+                Нагород за чудовий сервіс
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
-              <FeaturesListItemWrapper>20</FeaturesListItemWrapper>
-              <FeaturesListItemText>Лучших мастеров Киева</FeaturesListItemText>
+              <FeaturesListItemWrapper>10</FeaturesListItemWrapper>
+              <FeaturesListItemText>Найкращих товарів</FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
               <FeaturesListItemWrapper>100</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                Подарков постоянным клиентам
+                Подарунків постійним клієнтам
               </FeaturesListItemText>
             </FeaturesListItem>
           </FeaturesList>

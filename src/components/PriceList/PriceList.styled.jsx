@@ -1,11 +1,14 @@
 import styled from "styled-components";
-import img from "../../images/price/img@2x.png";
+import img from "../../images/price/img1.jpg";
 
 export const PriceListSection = styled.section`
   padding-top: 84px;
   padding-bottom: 84px;
-  background: #000000;
-  background-image: url(${img});
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(${img});
   background-size: cover;
   background-position: center;
 

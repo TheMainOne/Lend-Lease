@@ -33,6 +33,10 @@ export const GoodsWrapper = styled.li`
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     width: 290px;
 
+    & img {
+      height: 290px;
+    }
+
     &:not(:last-of-type) {
       margin-bottom: 0px;
       margin-right: 22px;
@@ -41,6 +45,10 @@ export const GoodsWrapper = styled.li`
 
   @media screen and (min-width: 1440px) {
     width: 320px;
+
+    & img {
+      height: 320px;
+    }
   }
 `;
 
@@ -137,4 +145,27 @@ export const GoodsItemSocialMediasListLink = styled.a`
   height: 40px;
   border-radius: 50%;
   background-color: #fff;
+`;
+
+export const GoodsButton = styled.button`
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border: 1px solid #ff6c00;
+  background-color: transparent;
+  border-radius: 25px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover,
+  focus {
+    color: #ffffff;
+    background-color: #ff6c00;
+  }
 `;

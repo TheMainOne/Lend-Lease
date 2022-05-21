@@ -1,21 +1,21 @@
 import styled from "styled-components";
-import img from "../../images/hero/img1@2x.jpg";
+import img from "../../images/hero/img3.jpg";
 
 export const Header = styled.header`
   height: 580px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url(${img});
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(${img});
   background-size: cover;
   background-position: center;
 
   @media screen and (min-width: 768px) {
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-
-  @media screen and (min-width: 1024px) {
-    background-position: unset;
   }
 `;
 

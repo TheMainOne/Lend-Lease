@@ -20,7 +20,7 @@ export const Footer = () => {
       <Container>
         <FooterWrapper>
           <div>
-            <FooterTitle name="footer">Контакты</FooterTitle>
+            <FooterTitle name="footer">Контакти</FooterTitle>
             <div>
               <FooterContactsList>
                 <FooterContactsListItem>
@@ -31,7 +31,7 @@ export const Footer = () => {
                   >
                     <LocationOnOutlinedIcon />
                     <FooterContactsListText>
-                      ул. Васильковая, 7А Киев, 08132
+                      вул. Васильковська, 7А Київ, 08132
                     </FooterContactsListText>
                   </FooterContactsListLink>
                 </FooterContactsListItem>
@@ -55,8 +55,8 @@ export const Footer = () => {
             </div>
           </div>
           <div>
-            <FooterSecondTitle>Время работы</FooterSecondTitle>
-            <FooterSecondText>Ежедневно с 9:00 до 22:00</FooterSecondText>
+            <FooterSecondTitle>Час работи</FooterSecondTitle>
+            <FooterSecondText>Кожен день з 9:00 до 22:00</FooterSecondText>
           </div>
         </FooterWrapper>
       </Container>

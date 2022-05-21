@@ -10,8 +10,8 @@ import {
   AboutSectionImageList,
   AboutSectionWrapper,
 } from "./About.styled";
-import img1 from "../../images/about_us/tablet/img1.jpg";
-import img2 from "../../images/about_us/tablet/img2.jpg";
+import img1 from "../../images/about_us/img1.jpg";
+import img2 from "../../images/about_us/img2.jpg";
 
 export const AboutSection = () => {
   return (
@@ -27,20 +27,19 @@ export const AboutSection = () => {
             </AboutSectionImageItem>
           </AboutSectionImageList>
           <div>
-            <AboutSectionTitle>О нас</AboutSectionTitle>
-            <AboutSectionText>Лучший Барбершоп твоего города</AboutSectionText>
+            <AboutSectionTitle>Про нас</AboutSectionTitle>
+            <AboutSectionText>Найкращі військові аксесуари</AboutSectionText>
             <AboutSectionSecondText>
-              Если ты хочешь добавить в свой образ больше уверенности – тебе
-              точно к нам.
+              Якщо ви бажаєтє купити військові товари належної якості - тоді вам
+              точно до нас.
             </AboutSectionSecondText>
             <AboutSectionThirdText>
-              Мы команда, которая никогда не останавливается на достигнутом и
-              жаждет перемен. И когда ты попадешь в руки нашего мастеро уже
-              никогда не сможешь быть прежним. Мы команда, которая всегда с
-              клиентами "на одной волне". Поэтому, мы всегда готовы
-              усовершенствовать каждого, кто к нам приходит!
+              Ми команда, яка не бажає йти на копроміси у підборі військового
+              спорядження та завжди шукає найкращі варіанти з усіх можливих. Ми
+              "на одній хвилі"" з нашими клієнтами. Тому, ми завжди готові
+              удосконалити спорядження кожного, хто до нас завітає!
             </AboutSectionThirdText>
-            <AboutSectionButton>Онлайн-запись</AboutSectionButton>
+            <AboutSectionButton>Зв'язатися з нами</AboutSectionButton>
           </div>
         </AboutSectionWrapper>
       </Container>
