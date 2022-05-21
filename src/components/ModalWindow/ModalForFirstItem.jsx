@@ -3,11 +3,15 @@ import Box from "@mui/material/Box";
 import CloseIcon from "@mui/icons-material/Close";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { ModalList, ModalListItem } from "./ModalForFirstItem.styled";
+import {
+  ModalList,
+  ModalListItem,
+  ModalLinkButton,
+} from "./ModalForFirstItem.styled";
 
 export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
   const TabletMediaWidth = useMediaQuery("(min-width:768px)");
-  console.log(TabletMediaWidth);
+
   return (
     <Modal
       open={openFirstModal}
@@ -15,21 +19,6 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
-      {/* <Box
-        sx={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          width: 350,
-          height: 500,
-          bgcolor: "#ffffff",
-          outline: "none",
-          padding: "15px",
-          color: "#303030",
-        }}
-          > */}
-
       <Box
         sx={[
           {
@@ -51,13 +40,19 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
       >
         <CloseIcon
           fontSize="large"
-          sx={{
-            cursor: "pointer",
-            color: "#000000",
-            marginLeft: "280px",
-            marginTop: "85px",
-            marginBottom: "30px",
-          }}
+          sx={[
+            {
+              cursor: "pointer",
+              color: "#000000",
+              marginLeft: "300px",
+              marginTop: "10px",
+              marginBottom: "30px",
+            },
+            TabletMediaWidth && {
+              marginLeft: "460px",
+              marginTop: "0px",
+            },
+          ]}
           onClick={handleClose}
         />
         <ModalList>
@@ -71,8 +66,8 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
               }}
             >
               Рюкзак польовий (пісочний колір) <br />
-              - Характеристика товару: <br /> - матеріал: еластан <br /> -
-              Об'єм: 10 л
+              Ціна: 2500грн <br />- Характеристика товару: <br /> - матеріал:
+              еластан <br /> - Об'єм: 10 л
               <br />
               - Розміри: 400х240 мм Вага: 600 г <br />
               - Два відділення
@@ -96,6 +91,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
             </Typography>
           </ModalListItem>
         </ModalList>
+        <ModalLinkButton>Замовити</ModalLinkButton>
       </Box>
     </Modal>
   );

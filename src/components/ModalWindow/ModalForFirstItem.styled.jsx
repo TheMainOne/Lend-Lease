@@ -7,7 +7,7 @@ export const BoxStyled = styled.div`
 
 export const ModalList = styled.ul`
   margin-left: 30px;
-  margin-bottom: 64px;
+  margin-bottom: 20px;
 `;
 
 export const ModalListItem = styled.li`
@@ -39,6 +39,7 @@ export const ModalLinkButton = styled.button`
   line-height: 16px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  cursor: pointer;
 
   &:hover,
   :focus {
