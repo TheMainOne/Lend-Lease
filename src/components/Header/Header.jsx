@@ -91,7 +91,7 @@ export const SiteHeader = () => {
             <HeaderText>
               Ми допомогаємо нашим воїнам
               <br /> в підборі необхідного обладнання. <br />
-              Швидко та якісно
+              Швидко та якісно.
             </HeaderText>
           </NavigationTitleInformation>
           <ModalWindow open={open} handleClose={handleClose} />

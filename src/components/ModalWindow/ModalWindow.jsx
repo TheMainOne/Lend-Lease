@@ -121,7 +121,9 @@ export const ModalWindow = ({ open, handleClose }) => {
           </ModalListItem>
         </ModalList>
         <ModalPhone href="tel:+380441111111">+38 044 111 11 11</ModalPhone>
-        <ModalLinkButton>Зв'язатися з нами</ModalLinkButton>
+        <ModalLinkButton href="https://t.me/mr_hyde880">
+          Зв'язатися з нами
+        </ModalLinkButton>
       </Box>
     </Modal>
   );
