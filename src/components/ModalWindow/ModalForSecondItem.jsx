@@ -7,15 +7,18 @@ import {
   ModalList,
   ModalListItem,
   ModalLinkButton,
-} from "./ModalForFirstItem.styled";
+} from "./ModalForSecondItem.styled";
 
-export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
+export const ModalWindowForSecondItem = ({
+  openSecondModal,
+  handleCloseSecondModal,
+}) => {
   const TabletMediaWidth = useMediaQuery("(min-width:768px)");
 
   return (
     <Modal
-      open={openFirstModal}
-      onClose={handleClose}
+      open={openSecondModal}
+      onClose={handleCloseSecondModal}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
@@ -53,7 +56,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
               marginTop: "0px",
             },
           ]}
-          onClick={handleClose}
+          onClick={handleCloseSecondModal}
         />
         <ModalList>
           <ModalListItem>
@@ -65,13 +68,12 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
                 letterSpacing: "0.03em",
               }}
             >
-              Рюкзак польовий (пісочний колір) <br />
-              Ціна: 2500грн <br /> Характеристика товару: <br /> - матеріал:
-              еластан <br /> - Об'єм: 10 л
+              Тактичний ліхтарик (чорний колір) <br />
+              Ціна: 1300грн <br /> Характеристика товару: <br /> - матеріал:
+              пластик <br /> - тип батарейки: ААА
               <br />
-              - Розміри: 400х240 мм Вага: 600 г <br />
-              - Два відділення
-              <br />- Дві зовнішні кишені
+              - Розміри: 100х140 мм Вага: 200 г <br />
+              - три режими <br />- дальність 25 м.
             </Typography>
           </ModalListItem>
           <ModalListItem>
@@ -84,10 +86,10 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
                 color: "#ff6c00",
               }}
             >
-              Рюкзак Tactical Cargo Pack 10L Multicam від 8Fields володіє
-              непоганим функціоналом. Він може використовуватися як тактичний
-              або звичайний міський рюкзак. Дана модель має два відділення на
-              блискавках.
+              Компанія Fenix випустила механічний поворотний ліхтар кишенькового
+              формату. Ця компактна модель генерує солідну яскравість світла, на
+              три тисячі люменів максимально. Найбільша дистанція дії — 405
+              метрів.
             </Typography>
           </ModalListItem>
         </ModalList>

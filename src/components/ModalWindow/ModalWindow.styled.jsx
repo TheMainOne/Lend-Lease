@@ -21,6 +21,7 @@ export const ModalPhone = styled.a`
 
 export const ModalLinkButton = styled.button`
   display: block;
+  color: #000000;
   margin-top: 24px;
   margin-left: 30px;
   width: 160px;

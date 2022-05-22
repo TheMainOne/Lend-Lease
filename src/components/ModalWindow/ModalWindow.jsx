@@ -65,7 +65,7 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                О нас
+                Про нас
               </Link>
             </Typography>
           </ModalListItem>
@@ -115,7 +115,7 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                Контакты
+                Контакти
               </Link>
             </Typography>
           </ModalListItem>

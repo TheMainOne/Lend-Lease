@@ -9,13 +9,16 @@ import {
   ModalLinkButton,
 } from "./ModalForFirstItem.styled";
 
-export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
+export const ModalWindowForThirdItem = ({
+  openThirdModal,
+  handleCloseThirdModal,
+}) => {
   const TabletMediaWidth = useMediaQuery("(min-width:768px)");
 
   return (
     <Modal
-      open={openFirstModal}
-      onClose={handleClose}
+      open={openThirdModal}
+      onClose={handleCloseThirdModal}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
@@ -53,7 +56,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
               marginTop: "0px",
             },
           ]}
-          onClick={handleClose}
+          onClick={handleCloseThirdModal}
         />
         <ModalList>
           <ModalListItem>
@@ -65,13 +68,12 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
                 letterSpacing: "0.03em",
               }}
             >
-              Рюкзак польовий (пісочний колір) <br />
-              Ціна: 2500грн <br /> Характеристика товару: <br /> - матеріал:
-              еластан <br /> - Об'єм: 10 л
-              <br />
-              - Розміри: 400х240 мм Вага: 600 г <br />
-              - Два відділення
-              <br />- Дві зовнішні кишені
+              Тактичні окуляри (Олива колір) <br />
+              Ціна: 5200грн <br /> Характеристика товару: <br /> - матеріал:
+              Полікарбонат <br />
+              - Розміри: 200х240 мм Вага: 60 г <br />
+              - Дві лінзи
+              <br />- секретна застежка
             </Typography>
           </ModalListItem>
           <ModalListItem>
@@ -84,10 +86,11 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
                 color: "#ff6c00",
               }}
             >
-              Рюкзак Tactical Cargo Pack 10L Multicam від 8Fields володіє
-              непоганим функціоналом. Він може використовуватися як тактичний
-              або звичайний міський рюкзак. Дана модель має два відділення на
-              блискавках.
+              Окуляри поляризаційні Select — це поєднання сучасного стилю й
+              захисту від сонця. Завдяки лінзам із коефіцієнтом UV 400 очі
+              будуть повністю захищені від шкідливого ультрафіолетового
+              випромінювання, а їхні противідблискові властивості допоможуть
+              чіткіше розгледіти все, що є під поверхнею води.
             </Typography>
           </ModalListItem>
         </ModalList>
