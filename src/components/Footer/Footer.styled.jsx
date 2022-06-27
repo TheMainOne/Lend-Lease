@@ -1,11 +1,14 @@
 import styled from "styled-components";
-import img from "../../images/contacts/Bg.png";
+import img from "../../images/contacts/footer.jpg";
 
 export const FooterSection = styled.footer`
   padding-top: 84px;
   padding-bottom: 84px;
-  background-image: url(${img});
-  background-size: cover;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.9),
+      rgba(47, 48, 58, 0.9)
+    ),
+    url(${img});
   background-position: center;
   background-color: #191c26;
 

@@ -109,6 +109,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
                 <br />- Шумопоглинання: 22db
                 <br />
                 - AUX вихід та перехідник
+                <br />- Тип батарейки ААА
                 <br />- Маса: 380гр.
                 <br />
                 <br /> Доставка:
