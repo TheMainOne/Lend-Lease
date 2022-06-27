@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.js": "/Lend-Lease/static/js/main.821fbe1a.js",
+    "main.js": "/Lend-Lease/static/js/main.bb58feca.js",
     "static/media/img1.jpg": "/Lend-Lease/static/media/img1.6db293bd066408824367.jpg",
     "static/media/Bg.png": "/Lend-Lease/static/media/Bg.862775a5fc5492737e8b.png",
     "static/media/img3.jpg": "/Lend-Lease/static/media/img3.99de1297f214b71d2973.jpg",
-    "static/media/img2.jpg": "/Lend-Lease/static/media/img2.206f920e6df138dbf685.jpg",
+    "static/media/img_2.jpg": "/Lend-Lease/static/media/img_2.44591ed007bdcfae94f0.jpg",
+    "static/media/img2.jpg": "/Lend-Lease/static/media/img2.2096334b968b75dba63f.jpg",
+    "static/media/img_1.jpg": "/Lend-Lease/static/media/img_1.9b78cf3592333c9e0620.jpg",
     "index.html": "/Lend-Lease/index.html",
-    "main.821fbe1a.js.map": "/Lend-Lease/static/js/main.821fbe1a.js.map"
+    "main.bb58feca.js.map": "/Lend-Lease/static/js/main.bb58feca.js.map"
   },
   "entrypoints": [
-    "static/js/main.821fbe1a.js"
+    "static/js/main.bb58feca.js"
   ]
 }
