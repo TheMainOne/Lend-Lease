@@ -11,8 +11,8 @@ import {
   GoodsList,
   GoodsButton,
 } from "./Goods.styled";
-import img1 from "../../images/masters/img1.jpg";
-import img2 from "../../images/masters/img2.jpg";
+import img1 from "../../images/masters/img_1.jpg";
+import img2 from "../../images/masters/img_2.jpg";
 import img3 from "../../images/masters/img3.jpg";
 import { ModalWindowForFirstItem } from "components/ModalWindow/ModalForFirstItem";
 import { ModalWindowForSecondItem } from "components/ModalWindow/ModalForSecondItem";
@@ -45,8 +45,8 @@ export const GoodsSection = () => {
               style={{ cursor: "pointer" }}
             />
             <GoodsThumb onClick={handleOpen}>
-              <GoodsItemTitle>Рюкзак польовий</GoodsItemTitle>
-              <GoodsItemText>Пісочний колір</GoodsItemText>
+              <GoodsItemTitle>Активні тактичні навушники</GoodsItemTitle>
+              <GoodsItemText>2700 грн</GoodsItemText>
             </GoodsThumb>
             <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
           </GoodsWrapper>
@@ -58,8 +58,8 @@ export const GoodsSection = () => {
               onClick={handleOpenSecondModal}
             />
             <GoodsThumb onClick={handleOpenSecondModal}>
-              <GoodsItemTitle>Тактичний ліхтарик</GoodsItemTitle>
-              <GoodsItemText>Чорний колір</GoodsItemText>
+              <GoodsItemTitle>Активні тактичні навушники</GoodsItemTitle>
+              <GoodsItemText>2700 грн</GoodsItemText>
             </GoodsThumb>
             <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
           </GoodsWrapper>

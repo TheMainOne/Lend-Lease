@@ -30,7 +30,6 @@ export const ModalWindowForThirdItem = ({
             left: "50%",
             transform: "translate(-50%, -50%)",
             width: 350,
-            height: 500,
             bgcolor: "#ffffff",
             outline: "none",
             padding: "15px",

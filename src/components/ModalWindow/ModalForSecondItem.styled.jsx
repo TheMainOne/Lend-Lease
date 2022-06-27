@@ -28,6 +28,7 @@ export const ModalLinkButton = styled.a`
   display: block;
   margin: 0 auto;
   margin-top: 24px;
+  margin-bottom: 24px;
   width: 160px;
   padding-top: 12px;
   padding-bottom: 12px;

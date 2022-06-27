@@ -36,18 +36,18 @@ export const Footer = () => {
                   </FooterContactsListLink>
                 </FooterContactsListItem>
                 <FooterContactsListItem>
-                  <FooterContactsListLink href="tel:+380441111111">
+                  <FooterContactsListLink href="tel:+380963441810">
                     <LocalPhoneSharpIcon />
                     <FooterContactsListText>
-                      +38 044 111 11 11
+                      +38 096 344 18 10
                     </FooterContactsListText>
                   </FooterContactsListLink>
                 </FooterContactsListItem>
                 <FooterContactsListItem>
-                  <FooterContactsListLink href="mailto:barbershop@email.com">
+                  <FooterContactsListLink href="mailto:sales@lend-lease.com.ua">
                     <EmailOutlinedIcon />
                     <FooterContactsListText>
-                      barbershop@email.com
+                      sales@lend-lease.com.ua
                     </FooterContactsListText>
                   </FooterContactsListLink>
                 </FooterContactsListItem>
