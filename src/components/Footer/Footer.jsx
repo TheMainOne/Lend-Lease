@@ -10,7 +10,7 @@ import {
   FooterSecondText,
   FooterWrapper,
 } from "./Footer.styled";
-import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+// import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import LocalPhoneSharpIcon from "@mui/icons-material/LocalPhoneSharp";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 
@@ -23,7 +23,7 @@ export const Footer = () => {
             <FooterTitle name="footer">Контакти</FooterTitle>
             <div>
               <FooterContactsList>
-                <FooterContactsListItem>
+                {/* <FooterContactsListItem>
                   <FooterContactsListLink
                     href="https://goo.gl/maps/EHh9YuX74odmkXjB8"
                     target="_blank"
@@ -34,7 +34,7 @@ export const Footer = () => {
                       вул. Васильковська, 7А Київ, 08132
                     </FooterContactsListText>
                   </FooterContactsListLink>
-                </FooterContactsListItem>
+                </FooterContactsListItem> */}
                 <FooterContactsListItem>
                   <FooterContactsListLink href="tel:+380963441810">
                     <LocalPhoneSharpIcon />

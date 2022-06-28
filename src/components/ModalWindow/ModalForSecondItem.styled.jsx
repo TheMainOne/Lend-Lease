@@ -5,6 +5,15 @@ export const BoxStyled = styled.div`
   margin-bottom: 64px;
 `;
 
+export const BoxWrapper = styled.div`
+  @media screen and (min-width: 768px) {
+    width: 350px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 450px;
+  }
+`;
+
 export const ModalList = styled.ul`
   margin-left: 30px;
   margin-bottom: 20px;

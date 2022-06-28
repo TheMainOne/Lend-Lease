@@ -1,3 +1,5 @@
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Box from "@mui/material/Box";
 import CloseIcon from "@mui/icons-material/Close";
@@ -7,13 +9,34 @@ import {
   ModalList,
   ModalListItem,
   ModalLinkButton,
+  BoxWrapper,
 } from "./ModalForSecondItem.styled";
+import image1 from "../../images/modalSecond/image1.jpg";
+import image2 from "../../images/modalSecond/image2.jpg";
+import image3 from "../../images/modalSecond/image3.jpg";
+import image4 from "../../images/modalSecond/image4.jpg";
 
 export const ModalWindowForSecondItem = ({
   openSecondModal,
   handleCloseSecondModal,
 }) => {
   const TabletMediaWidth = useMediaQuery("(min-width:768px)");
+  const DesktopMediaWidth = useMediaQuery("(min-width:1024px)");
+
+  const images = [
+    {
+      original: image1,
+    },
+    {
+      original: image2,
+    },
+    {
+      original: image3,
+    },
+    {
+      original: image4,
+    },
+  ];
 
   return (
     <Modal
@@ -32,67 +55,111 @@ export const ModalWindowForSecondItem = ({
             width: 350,
             bgcolor: "#ffffff",
             outline: "none",
-            padding: "15px",
+            padding: "25px",
             color: "#303030",
           },
           TabletMediaWidth && {
-            width: 500,
+            width: 700,
+            display: "flex",
+            alignItems: "center",
+          },
+          DesktopMediaWidth && {
+            width: 1000,
           },
         ]}
       >
-        <CloseIcon
-          fontSize="large"
+        <BoxWrapper>
+          <CloseIcon
+            fontSize="large"
+            sx={[
+              {
+                cursor: "pointer",
+                color: "#000000",
+                marginLeft: "300px",
+                marginTop: "10px",
+                marginBottom: "15px",
+              },
+              TabletMediaWidth && {
+                marginLeft: "675px",
+                marginTop: "0px",
+              },
+              DesktopMediaWidth && {
+                marginLeft: "480px",
+                marginBottom: "28px",
+                width: 1000,
+              },
+            ]}
+            onClick={handleCloseSecondModal}
+          />
+          <ModalList>
+            <ModalListItem>
+              <Typography
+                variant="body1"
+                sx={{
+                  fontFamily: "inherit",
+                  fontSize: "16px",
+                  letterSpacing: "0.03em",
+                }}
+              >
+                Активні тактичні навушники (колір: олива, чорний)
+                <br />
+                Ціна: 2700 грн.
+                <br />
+                <br />
+                Характеристики:
+                <br />- Шумопоглинання: 22db
+                <br />
+                - AUX вихід та перехідник
+                <br />- Тип батарейки ААА
+                <br />- Маса: 380гр.
+                <br />
+                <br /> Доставка:
+                <br /> Новою Поштою по Україні, або самовивіз зі складу в Києві.
+              </Typography>
+            </ModalListItem>
+            <ModalListItem>
+              <Typography
+                variant="body1"
+                sx={{
+                  fontFamily: "inherit",
+                  fontSize: "14px",
+                  letterSpacing: "0.03em",
+                  color: "#ff6c00",
+                }}
+              >
+                Активні навушники для стрільби з шумопоглинанням до 22db.
+                Навушники оснащені двома всеспрямованими мікрофонами з
+                динамічним діапазоном, регулятором гучності, аудіовходом і
+                звукоізоляційним корпусом. Звуковий стиск забезпечує 2
+                мілісекундний час реакції.
+                <br />
+                Для роботи використовує 2 батарейки типу ААА
+              </Typography>
+            </ModalListItem>
+          </ModalList>
+          <ModalLinkButton href="https://t.me/LendLease_Ukraine">
+            Купити
+          </ModalLinkButton>
+        </BoxWrapper>
+        <Box
           sx={[
             {
-              cursor: "pointer",
-              color: "#000000",
-              marginLeft: "300px",
-              marginTop: "10px",
-              marginBottom: "15px",
+              display: "none",
             },
             TabletMediaWidth && {
-              marginLeft: "460px",
-              marginTop: "0px",
+              display: "block",
+              marginLeft: "30px",
             },
           ]}
-          onClick={handleCloseSecondModal}
-        />
-        <ModalList>
-          <ModalListItem>
-            <Typography
-              variant="body1"
-              sx={{
-                fontFamily: "inherit",
-                fontSize: "16px",
-                letterSpacing: "0.03em",
-              }}
-            >
-              Тактичний ліхтарик (чорний колір) <br />
-              Ціна: 1300грн <br /> Характеристика товару: <br /> - матеріал:
-              пластик <br /> - тип батарейки: ААА
-              <br />
-              - Розміри: 100х140 мм Вага: 200 г <br />
-              - три режими <br />- дальність 25 м.
-            </Typography>
-          </ModalListItem>
-          <ModalListItem>
-            <Typography
-              variant="body1"
-              sx={{
-                fontFamily: "inherit",
-                fontSize: "14px",
-                letterSpacing: "0.03em",
-                color: "#ff6c00",
-              }}
-            >
-              Компанія Fenix випустила механічний поворотний ліхтар кишенькового
-              формату. Ця компактна модель генерує солідну яскравість світла, на
-              три тисячі люменів максимально. Найбільша дистанція дії — 405
-              метрів.
-            </Typography>
-          </ModalListItem>
-        </ModalList>
-        <ModalLinkButton href="https://t.me/mr_hyde880">Купити</ModalLinkButton>
+        >
+          {" "}
+          <ImageGallery
+            showPlayButton={false}
+            showBullets={true}
+            showThumbnails={false}
+            items={images}
+          />
+        </Box>
       </Box>
     </Modal>
   );

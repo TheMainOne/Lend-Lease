@@ -48,7 +48,9 @@ export const GoodsSection = () => {
               <GoodsItemTitle>Активні тактичні навушники</GoodsItemTitle>
               <GoodsItemText>2700 грн</GoodsItemText>
             </GoodsThumb>
-            <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
+            <GoodsButton href="https://t.me/LendLease_Ukraine">
+              Купити
+            </GoodsButton>
           </GoodsWrapper>
           <GoodsWrapper>
             <img
@@ -61,7 +63,9 @@ export const GoodsSection = () => {
               <GoodsItemTitle>Активні тактичні навушники</GoodsItemTitle>
               <GoodsItemText>2700 грн</GoodsItemText>
             </GoodsThumb>
-            <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
+            <GoodsButton href="https://t.me/LendLease_Ukraine">
+              Купити
+            </GoodsButton>
           </GoodsWrapper>
           <GoodsWrapper>
             <img
@@ -74,7 +78,9 @@ export const GoodsSection = () => {
               <GoodsItemTitle>Тактичні окуляри</GoodsItemTitle>
               <GoodsItemText>Олива колір</GoodsItemText>
             </GoodsThumb>
-            <GoodsButton href="https://t.me/mr_hyde880">Купити</GoodsButton>
+            <GoodsButton href="https://t.me/LendLease_Ukraine">
+              Купити
+            </GoodsButton>
           </GoodsWrapper>
         </GoodsList>
         <ModalWindowForFirstItem

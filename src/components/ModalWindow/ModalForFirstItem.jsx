@@ -136,7 +136,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
               </Typography>
             </ModalListItem>
           </ModalList>
-          <ModalLinkButton href="https://t.me/mr_hyde880">
+          <ModalLinkButton href="https://t.me/LendLease_Ukraine">
             Купити
           </ModalLinkButton>
         </BoxWrapper>
@@ -147,6 +147,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
             },
             TabletMediaWidth && {
               display: "block",
+              marginLeft: "30px",
             },
           ]}
         >
