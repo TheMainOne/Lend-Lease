@@ -140,7 +140,16 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
             Купити
           </ModalLinkButton>
         </BoxWrapper>
-        <div>
+        <Box
+          sx={[
+            {
+              display: "none",
+            },
+            TabletMediaWidth && {
+              display: "block",
+            },
+          ]}
+        >
           {" "}
           <ImageGallery
             showPlayButton={false}
@@ -148,7 +157,7 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
             showThumbnails={false}
             items={images}
           />
-        </div>
+        </Box>
       </Box>
     </Modal>
   );
