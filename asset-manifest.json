@@ -1,12 +1,16 @@
 {
   "files": {
     "main.css": "/Lend-Lease/static/css/main.42bf326e.css",
-    "main.js": "/Lend-Lease/static/js/main.7524dc95.js",
+    "main.js": "/Lend-Lease/static/js/main.3ea109c4.js",
     "static/media/img1.jpg": "/Lend-Lease/static/media/img1.6db293bd066408824367.jpg",
     "static/media/footer.jpg": "/Lend-Lease/static/media/footer.d294d408775e3b195853.jpg",
+    "static/media/image4.jpg": "/Lend-Lease/static/media/image4.dca7725d17093c896a09.jpg",
     "static/media/img3.jpg": "/Lend-Lease/static/media/img3.99de1297f214b71d2973.jpg",
     "static/media/img_2.jpg": "/Lend-Lease/static/media/img_2.44591ed007bdcfae94f0.jpg",
+    "static/media/image2.jpg": "/Lend-Lease/static/media/image2.202bd782ed0aa69114bb.jpg",
+    "static/media/image1.jpg": "/Lend-Lease/static/media/image1.82cc5ce3527b5dd03050.jpg",
     "static/media/img2.jpg": "/Lend-Lease/static/media/img2.2096334b968b75dba63f.jpg",
+    "static/media/image3.jpg": "/Lend-Lease/static/media/image3.6699172c202c7eb82fe2.jpg",
     "static/media/img_1.jpg": "/Lend-Lease/static/media/img_1.9b78cf3592333c9e0620.jpg",
     "static/media/image2.webp": "/Lend-Lease/static/media/image2.961d10c6938f05ab90b4.webp",
     "static/media/image1.webp": "/Lend-Lease/static/media/image1.7a9e3bd3526ee918229e.webp",
@@ -16,10 +20,10 @@
     "static/media/image1small.webp": "/Lend-Lease/static/media/image1small.9c547dbe4a1a336c4bde.webp",
     "index.html": "/Lend-Lease/index.html",
     "main.42bf326e.css.map": "/Lend-Lease/static/css/main.42bf326e.css.map",
-    "main.7524dc95.js.map": "/Lend-Lease/static/js/main.7524dc95.js.map"
+    "main.3ea109c4.js.map": "/Lend-Lease/static/js/main.3ea109c4.js.map"
   },
   "entrypoints": [
     "static/css/main.42bf326e.css",
-    "static/js/main.7524dc95.js"
+    "static/js/main.3ea109c4.js"
   ]
 }
