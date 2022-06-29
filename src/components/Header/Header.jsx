@@ -77,11 +77,11 @@ export const SiteHeader = () => {
               </NavigationLargeList>
             </nav>
             <NavigationContactsWrapper>
-              <NavigationContactsButton href="https://t.me/mr_hyde880">
+              <NavigationContactsButton href="https://t.me/LendLease_Ukraine">
                 Зв'язатися з нами
               </NavigationContactsButton>
-              <NavigationContactsLink href="tel:+380441111111">
-                +38 044 111 11 11
+              <NavigationContactsLink href="tel:+380963441810">
+                +38 096 344 18 10
               </NavigationContactsLink>
             </NavigationContactsWrapper>
           </NavigationWrapper>

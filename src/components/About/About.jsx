@@ -39,7 +39,7 @@ export const AboutSection = () => {
               "на одній хвилі"" з нашими клієнтами. Тому, ми завжди готові
               удосконалити спорядження кожного, хто до нас завітає!
             </AboutSectionThirdText>
-            <AboutSectionButton href="https://t.me/mr_hyde880">
+            <AboutSectionButton href="https://t.me/LendLease_Ukraine">
               Зв'язатися з нами
             </AboutSectionButton>
           </div>

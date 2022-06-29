@@ -46,7 +46,7 @@ export const GoodsSection = () => {
             />
             <GoodsThumb onClick={handleOpen}>
               <GoodsItemTitle>Активні тактичні навушники</GoodsItemTitle>
-              <GoodsItemText>2700 грн</GoodsItemText>
+              <GoodsItemText>2 700 грн</GoodsItemText>
             </GoodsThumb>
             <GoodsButton href="https://t.me/LendLease_Ukraine">
               Купити
@@ -61,7 +61,7 @@ export const GoodsSection = () => {
             />
             <GoodsThumb onClick={handleOpenSecondModal}>
               <GoodsItemTitle>Активні тактичні навушники</GoodsItemTitle>
-              <GoodsItemText>2700 грн</GoodsItemText>
+              <GoodsItemText>2 700 грн</GoodsItemText>
             </GoodsThumb>
             <GoodsButton href="https://t.me/LendLease_Ukraine">
               Купити
@@ -75,8 +75,8 @@ export const GoodsSection = () => {
               onClick={handleOpenThirdModal}
             />
             <GoodsThumb onClick={handleOpenThirdModal}>
-              <GoodsItemTitle>Тактичні окуляри</GoodsItemTitle>
-              <GoodsItemText>Олива колір</GoodsItemText>
+              <GoodsItemTitle>Навігатор GARMIN ETREX 32X</GoodsItemTitle>
+              <GoodsItemText>11 000 грн</GoodsItemText>
             </GoodsThumb>
             <GoodsButton href="https://t.me/LendLease_Ukraine">
               Купити

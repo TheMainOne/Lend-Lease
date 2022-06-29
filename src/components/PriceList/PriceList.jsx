@@ -42,7 +42,7 @@ export const PriceList = () => {
             </PriceItem>
           </ul>
         </PriceContainer>
-        <PriceListButton href="https://t.me/mr_hyde880">
+        <PriceListButton href="https://t.me/LendLease_Ukraine">
           Зв'язатися з нами
         </PriceListButton>
       </Container>
