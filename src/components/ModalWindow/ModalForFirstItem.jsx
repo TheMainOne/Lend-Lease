@@ -94,11 +94,19 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
             <ModalListItem>
               <Typography
                 variant="body1"
-                sx={{
-                  fontFamily: "inherit",
-                  fontSize: "16px",
-                  letterSpacing: "0.03em",
-                }}
+                sx={[
+                  {
+                    fontFamily: "inherit",
+                    fontSize: "12px",
+                    letterSpacing: "0.03em",
+                  },
+                  TabletMediaWidth && {
+                    fontSize: "14px",
+                  },
+                  DesktopMediaWidth && {
+                    fontSize: "16px",
+                  },
+                ]}
               >
                 Активні тактичні навушники (колір: олива, чорний)
                 <br />
@@ -119,12 +127,20 @@ export const ModalWindowForFirstItem = ({ openFirstModal, handleClose }) => {
             <ModalListItem>
               <Typography
                 variant="body1"
-                sx={{
-                  fontFamily: "inherit",
-                  fontSize: "14px",
-                  letterSpacing: "0.03em",
-                  color: "#ff6c00",
-                }}
+                sx={[
+                  {
+                    fontFamily: "inherit",
+                    fontSize: "12px",
+                    letterSpacing: "0.03em",
+                    color: "#ff6c00",
+                  },
+                  TabletMediaWidth && {
+                    fontSize: "14px",
+                  },
+                  DesktopMediaWidth && {
+                    fontSize: "16px",
+                  },
+                ]}
               >
                 Активні навушники для стрільби з шумопоглинанням до 22db.
                 Навушники оснащені двома всеспрямованими мікрофонами з
