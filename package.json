@@ -2,7 +2,7 @@
   "name": "lend-lease",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lend-lease.com.ua/",
+  "homepage": "https://TheMainOne.github.io/Lend-Lease",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
